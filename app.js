@@ -1,3 +1,4 @@
+// Your existing JS with just the button event listener added
 let gameSeq=[];
 let userSeq=[];
 let btns = ["yellow","red","green","purple"];
@@ -5,13 +6,22 @@ let started = false;
 let level=0;
 let h3 = document.querySelector("h3");
 let highscore = 0;
+
+// Added this for the start button
+document.getElementById("startBtn").addEventListener("click", function() {
+    if(started==false){
+        console.log("started");
+        started = true;
+        levelUp();
+    }
+});
+
 document.addEventListener("keypress",function(){
     if(started==false){
         console.log("started");
         started = true;
         levelUp();
     }
-    
 });
 
 function flashbtn(btn){
