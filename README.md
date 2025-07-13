@@ -30,10 +30,11 @@ Play the game here: [https://simon-says-hemant.netlify.app/](https://simon-says-
 ## Project Structure 📂
 
 Simon-says/
-├── index.html   # Main HTML file
-├── style.css    # Stylesheet
-├── app.js       # Main game logic
-└── README.md    # This file
+|
+|──index.html   # Main HTML file
+|── style.css    # Stylesheet
+|── app.js       # Main game logic
+|── README.md    # This file
 
 ## Installation 💾
 
@@ -43,6 +44,7 @@ To run locally:
 git clone https://github.com/hemantsaini30/Simon-says.git
 cd Simon-says
 open index.html
+```
 
 ##Author 👨💻
 Hemant Saini
