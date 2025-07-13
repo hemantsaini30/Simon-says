@@ -31,10 +31,10 @@ Play the game here: [https://simon-says-hemant.netlify.app/](https://simon-says-
 
 Simon-says/
 |
-|──index.html   # Main HTML file
-|── style.css    # Stylesheet
-|── app.js       # Main game logic
-|── README.md    # This file
+|-index.html    # Main HTML file
+|- style.css    # Stylesheet
+|- app.js       # Main game logic
+|- README.md    # This file
 
 ## Installation 💾
 
