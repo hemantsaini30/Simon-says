@@ -27,13 +27,16 @@ Play the game here: [https://simon-says-hemant.netlify.app/](https://simon-says-
 - CSS3
 - JavaScript (ES6)
 
-## Project Structure 📂
+## 📁 Project Structure
 
+```
 Simon-says/
- -index.html    # Main HTML file
- -style.css    # Stylesheet
- -app.js       # Main game logic
- -README.md    # This file
+├── index.html   # Main HTML file  
+├── style.css    # Stylesheet  
+├── app.js       # Main game logic  
+└── README.md    # This file  
+```
+
 
 ## Installation 💾
 
